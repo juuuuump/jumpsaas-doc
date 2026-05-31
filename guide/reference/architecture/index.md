@@ -7,5 +7,5 @@ description: Technical details on routing, i18n, data flow, and API patterns for
 
 Deep technical details: route organization, data flow patterns, i18n, API routes, and key architecture decisions. Pick your framework:
 
-- [Next.js](./nextjs) — App Router, middleware i18n, next-intl, server components
-- [TanStack](./tanstack) — File-based routes, param i18n, ParaglideJS, Vite
+- [Next.js](/docs/reference/architecture/nextjs) — App Router, middleware i18n, next-intl, server components
+- [TanStack](/docs/reference/architecture/tanstack) — File-based routes, param i18n, ParaglideJS, Vite
