@@ -15,7 +15,7 @@ Get JumpSaaS running locally in 5 minutes.
 ## 0. Clone the repository
 
 ```bash
-git clone git@github.com:juuuuump/jumpersaas.git my-app
+git clone git@github.com:juuuuump/jumpsaas-tanstack.git my-app
 cd my-app
 ```
 

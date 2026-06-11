@@ -51,8 +51,8 @@ git remote -v
 # Should show:
 # origin    git@github.com:yourusername/my-saas-app.git (fetch)
 # origin    git@github.com:yourusername/my-saas-app.git (push)
-# template  git@github.com:juuuuump/jumpersaas.git (fetch)
-# template  git@github.com:juuuuump/jumpersaas.git (push)
+# template  git@github.com:juuuuump/jumpsaas-tanstack.git (fetch)
+# template  git@github.com:juuuuump/jumpsaas-tanstack.git (push)
 ```
 
 ### Applying Updates:
@@ -177,7 +177,7 @@ See migration guide template in your welcome email or at:
 
 1. **Clone the new template version**
    ```bash
-   git clone git@github.com:juuuuump/jumpersaas.git my-saas-v2
+   git clone git@github.com:juuuuump/jumpsaas-tanstack.git my-saas-v2
    cd my-saas-v2
    git checkout v2.0  # Or latest version tag
    ```
@@ -383,7 +383,7 @@ v1.0-stable         # Frozen v1.0 (security patches only)
 v1.1-stable         # Frozen v1.1 (security patches only)
 
 # Track stable version instead of main:
-git remote add template git@github.com:juuuuump/jumpersaas.git
+git remote add template git@github.com:juuuuump/jumpsaas-tanstack.git
 git fetch template
 git merge template/v1.0-stable  # Only get security fixes
 ```
